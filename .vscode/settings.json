@@ -1,0 +1,10 @@
+{
+	// check eslint on save -> run "ESLint" plugin
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true  
+    },
+
+	// format code on save -> run "Prettier - Code formatter" plugin
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+}
